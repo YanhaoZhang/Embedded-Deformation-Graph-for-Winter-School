@@ -10,6 +10,19 @@ The implementation of EDGraph is in `EDGraph`. You can run `./EDGraph/main_edgra
 
 The Matlab functions for aortic 3D deformation reconstruction is in `AortaDef`. A brief introduction of this project assignment is `./document/WinterSchool_Project_AorticDef_intro.pdf`. You can refer to `./document/WinterSchool_Project_AorticDef_doc.pdf` for more details  on how to finish this assignment.
 
+Please finish the following functions for the `todo` part. 
+
+* `camera_projection_model.m`
+* `calculate_projectionContour.m`
+* `calculate_correspondence_observation2ModelContour.m` (This might not be easy)
+* `camera_projection_model_Jacobian.m`
+* `calculate_Error.m`
+* `calculate_Jacobian.m`
+* `update_pts_position.m`
+* `Gauss_Newton_Optimization.m` (optional)
+
+
+
 
 
 ## Contacts:
@@ -42,3 +55,4 @@ Aortic 3D deformation reconstruction:
   organization={IEEE}
 }
 ```
+
