@@ -58,3 +58,6 @@ material('dull');
 hold on
 plot3(obser.ctrl_pts_after(1,:),obser.ctrl_pts_after(2,:),obser.ctrl_pts_after(3,:),'g.');
 %}
+
+
+

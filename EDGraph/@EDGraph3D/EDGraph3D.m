@@ -4,7 +4,7 @@ classdef EDGraph3D < handle
     % properties for deformation default value
     properties
         num_nearestpts = 6;          % for weights of ednode connection    
-        grid_size      = 0.02/1;       % Downsampling grid size for EDnodes  
+        grid_size      = 10/1;       % Downsampling grid size for EDnodes  
     end
     
     % 3D model 

@@ -4,7 +4,11 @@ This project is a learning material for 2021 Winter school on SLAM in deformable
 
 ## EDGraph
 
-The implementation of EDGraph is in `EDGraph`. You can run `./EDGraph/main_edgraph3D.m` using Matlab, and see how the ear of a bunny is deformed according to the given control points. The slides of the tutorial will also be uploaded in `document` soon. 
+The implementation of EDGraph is in `EDGraph`. You can run `./EDGraph/main_edgraph3D.m` using Matlab, and see how the ear of a bunny is deformed according to the given control points. 
+
+You can run `./EDGraph/main_edgraph3D_aorta.m`  to practice the ED Graph using a segmented mesh presenting part of the aorta. 
+
+Don't forget to switch the grid_size in `EDGraph3D.m`. It controls the grid size when down sampling for the ED nodes. 
 
 ## Aortic 3D Reconstruction
 
