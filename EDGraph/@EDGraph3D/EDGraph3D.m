@@ -5,6 +5,7 @@ classdef EDGraph3D < handle
     properties
         num_nearestpts = 6;          % for weights of ednode connection    
         grid_size      = 10/1;       % Downsampling grid size for EDnodes  
+        % grid_size      = 0.02;       % this is for the bunny data.
     end
     
     % 3D model 

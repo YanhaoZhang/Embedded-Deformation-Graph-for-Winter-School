@@ -8,11 +8,25 @@ The implementation of EDGraph is in `EDGraph`. You can run `./EDGraph/main_edgra
 
 You can run `./EDGraph/main_edgraph3D_aorta.m`  to practice the ED Graph using a segmented mesh presenting part of the aorta. 
 
-Don't forget to switch the grid_size in `EDGraph3D.m`. It controls the grid size when down sampling for the ED nodes. 
+Don't forget to switch the grid_size in `EDGraph3D.m`. It controls the grid size when down sampling for the ED nodes. You can do this by uncomment the following line in `EDGraph/@EDGraph3D/EDGraph3D.m`.
+
+``` matlab
+properties
+        num_nearestpts = 6;          % for weights of ednode connection    
+        grid_size      = 10/1;       % Downsampling grid size for EDnodes  
+        % grid_size      = 0.02;       % this is for the bunny data.
+end
+```
+
+Here, the computer vision toolbox is used for down-sampling the vertices. 
+
+
 
 ## Aortic 3D Reconstruction
 
 The Matlab functions for aortic 3D deformation reconstruction is in `AortaDef`. A brief introduction of this project assignment is `./document/WinterSchool_Project_AorticDef_intro.pdf`. You can refer to `./document/WinterSchool_Project_AorticDef_doc.pdf` for more details  on how to finish this assignment.
+
+
 
 Please finish the following functions for the `todo` part. 
 
