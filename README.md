@@ -1,6 +1,8 @@
 # Aortic 3D Deformation Reconstruction
 
-This project is a learning material for 2021 Winter school on SLAM in deformable environments. Here, we provide a Matlab implementation of embedded deformation graph [1]. This implementation is used for the tutorial class. We also provide some functions of a Matlab implementation of our ICRA 2020 paper related to aortic deformation reconstruction [2]. This is used for the project assignment. The whole code will be released after the winter school. 
+This project is a learning material for 2021 Winter school on SLAM in deformable environments. Here, we provide a Matlab implementation of embedded deformation graph [1]. This implementation is used for the tutorial class. We also provide some functions of a Matlab implementation of our ICRA 2020 paper related to aortic deformation reconstruction [2]. This is used for the project assignment. 
+
+I will release the whole code of AortaDef. So even if you miss to attend this project, you will still be able to have access to the whole project after this winter school. 
 
 ## EDGraph
 
